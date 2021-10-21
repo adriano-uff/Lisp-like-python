@@ -16,5 +16,7 @@ def valoresNaFaixa(vals,min,max):
         else:
             return valoresNaFaixa(cdr(vals),min,max)
 
-numeros = [2, 7, 5, 4, 1, 8, 9, 5 , 6, 3, 8, 9, 4, 2, 5, 7, 9, 5, 2, 5, 4, 5, 4]
+numeros = [2, 7, 5, 4, 1, 8, 9, 6, 3, 8, 9, 4, 2, 5, 7, 9, 2, 5, 4, 5, 4]
+
+#retorna os valores na faixa especificada
 print('valores na faixa:',valoresNaFaixa(numeros,4,8))

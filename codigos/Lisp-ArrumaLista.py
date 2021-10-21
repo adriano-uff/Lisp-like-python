@@ -10,15 +10,6 @@ def cons(x,y):
 def ehAtomo(x):
     return not isinstance(x, list)
 
-def soma(vals):
-    if vals == []:
-        return 0
-    else:
-        if ehAtomo(car(vals)):
-            return car(vals) + soma(cdr(vals))
-        else:
-            return soma(car(vals)) + soma(cdr(vals))
-
 def emagrece(vals):
     if vals == []:
         return []
@@ -37,8 +28,8 @@ def concatena(valsA, valsB):
         else:
             return cons(car(valsA), concatena(cdr(valsA), valsB))
 
-# PP
-valores = [[3, 6, 7], [[[8, 4], 0]], [1, 10], 88,[[3,[2,4]]], [44]]
+valores = [[3, 6, 7], [[[8, 4], 0]], [1, 10], 8,[[3,[2,4]]], [9]]
+
+#arrumar o emaranhado de listas em uma unica lista
 print("antes: ", valores)
 print("depois: ", emagrece(valores))
-print('soma:',soma(valores))

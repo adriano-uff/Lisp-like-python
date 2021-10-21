@@ -19,8 +19,6 @@ def contarSubLista(vals):
     else:
         return 1 + contarSubLista(cdr(vals))
 
-
-
 def somalinha(vals):
     if vals == []:
         return 0
@@ -45,12 +43,8 @@ def mediaDaMatriz(vals):
     else:
         return somarListadeSomas(vals) / quantidade(vals)
 
-listasimples = [1,2,3,4,5]
 numeros = [[1,1,1],[3,3,3],[2,2,2]]
 
-
-print(contarSubLista(numeros))
-print(quantidade(numeros))
-print(somarlinhasMatriz(numeros))
-print(somarListadeSomas(numeros))
-print(mediaDaMatriz(numeros))
+#retorna a soma e a media da matriz
+print('soma da matriz:',somarListadeSomas(numeros))
+print('media da matriz:',mediaDaMatriz(numeros))

@@ -24,4 +24,5 @@ def media(val):
 
 numeros = [2, 7, 5, 4, 1, 8, 9, 5 , 6, 3, 8, 9, 4, 2, 5, 7, 9, 5, 2, 5, 4, 5, 4]
 
+#retorna a media dos valores
 print('media:',media(numeros))

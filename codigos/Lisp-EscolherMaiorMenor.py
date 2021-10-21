@@ -25,7 +25,8 @@ def maioresqueValor(vals, valor):
         else:
             return maioresqueValor(cdr(vals), valor)
 
-numeros = [2, 7, 5, 4, 1, 8, 9, 5 , 6, 3, 8, 9, 4, 2, 5, 7, 9, 5, 2, 5, 4, 5, 4]
+numeros = [2, 7, 5, 4, 10, 8, 9, 5 , 6, 3, 8, 15, 4, 1, 5, 7, 5, 2]
 
-print('menor que o valor escolhido:',menoresqueValor(numeros,2))
+#retornar apenas os valores maiores e menores que os escolhidos
+print('menor que o valor escolhido:',menoresqueValor(numeros,4))
 print('maiores que o valor escolido:',maioresqueValor(numeros,8))

@@ -26,5 +26,7 @@ def operacao(vals,qtd):
         return vals
 
 lista = [1,2,3,4,5]
-qtd = 2
-print(rodar(lista,qtd))
+qtd_de_vezes = 2
+
+#roda a lista
+print(rodar(lista,qtd_de_vezes))

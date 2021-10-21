@@ -13,6 +13,7 @@ def soma(val):
     else:
         return car(val) + soma(cdr(val))
 
-numeros = [2, 7, 5, 4, 1, 8, 9, 5 , 6, 3, 8, 9, 4, 2, 5, 7, 9, 5, 2, 5, 4, 5]
+numeros = [2, 7, 5, 4, 1, 8, 9, 5]
 
+#retorna a soma
 print('soma:',soma(numeros))

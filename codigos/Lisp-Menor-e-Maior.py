@@ -33,6 +33,8 @@ def maiorValor(vals):
     else:
         return maiorValor(cdr(vals))
 
-numeros = [2, 7, 5, 4, 1, 8, 9, 5 , 6, 3, 8, 9, 4, 2, 5, 7, 9, 5, 2, 5, 4, 5, 4]
+numeros = [2, 7, 5, 4, 8, 9, 5 , 6, 3, 8, 9, 4, 2, 5, 7, 9, 5, 2, 5, 4, 5, 4]
+
+#retorna o menor e o maior da lista
 print('menor valor da lista:',menorValor(numeros))
 print('maior valor da lista:',maiorValor(numeros))

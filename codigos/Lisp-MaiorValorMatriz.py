@@ -37,9 +37,7 @@ def maiorabsoluto(vals):
     else:
         return maiordalinha(maioresdaslinhas(vals))
 
-#primeiro acha os maiores de cada linha, junta os em uma lista, e depois acha o maior dessa lista (maior dos maiores)
-#fique atento ao car(vals), as vezes ele pode ser uma lista [1,2,3]
+numeros = [[9,8,7],[4,5,6],[1,20,3],[1,2,3]]
 
-numeros = [[90,8,7],[4,5,6],[1,20,3],[1,2,3]]
-listasimples = [1,2,9]
+#retorna o maior valor
 print(maiorabsoluto(numeros))

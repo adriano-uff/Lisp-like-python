@@ -25,7 +25,8 @@ def impares(vals):
         else:
             return impares(cdr(vals))
 
-numeros = [2, 7, 5, 4, 1, 8, 9, 5 , 6, 3, 8, 9, 4, 2, 5, 7, 9, 5, 2, 5, 4, 5, 4]
+numeros = [2, 7, 5, 4, 1, 8, 9, 5 , 6, 3, 8, 9, 4, 2, 5, 2, 5, 4]
 
+#retornar os impares e os pares
 print('pares:',pares(numeros))
 print('impares:',impares(numeros))

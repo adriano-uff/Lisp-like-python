@@ -32,5 +32,7 @@ def bubblesort(n,vals):
         return bubblesort(n-1,separar(vals))
 
 
-vals = [11,10,9,8,20,520,4,3,2,1,0]
-print(bubblesort(quantidade(vals),vals))
+numeros = [11,9,10,8,20,150,4,3,2,1,0,5]
+
+#organizar em ordem crescente
+print(bubblesort(quantidade(numeros),numeros))
