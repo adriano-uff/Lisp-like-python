@@ -45,6 +45,5 @@ def mediaDaMatriz(vals):
 
 numeros = [[1,1,1],[3,3,3],[2,2,2]]
 
-#retorna a soma e a media da matriz
-print('soma da matriz:',somarListadeSomas(numeros))
+#retorna a media da matriz
 print('media da matriz:',mediaDaMatriz(numeros))
